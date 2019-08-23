@@ -1,0 +1,24 @@
+
+<div class="pannel pannel-primary">
+    <div class="pannel-heading">
+            <h2 class="pannel-title">create your own quote</h2>
+    </div>
+    
+    <hr>
+    <form #quoteForm="ngForm">
+        
+        <div class="form-group">
+            <label>Enter Name</label>
+            <input type="text">
+            <br>
+            <label>Enter Author</label>
+            <input type="text" >
+            <br>
+            <label>Type your quote</label>
+            <textarea type="text"></textarea>
+            <br>
+           <button type="SUBMIT"class="btn btn-primary">Post</button>
+        </div>
+    </form>
+{{todoform.value |json}}
+</div>
